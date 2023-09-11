@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="styles.css">
-    <link href="fonts.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/inicio.styles.css">
+    <link href="./fonts.css" rel="stylesheet">
     <title>pet shop</title>
 </head>
 <body>
     <header>
-        <img src="logo.png"/>
+        <img src="./images/logo.png"/>
         <div class="search-bar">
             <input type="text" placeholder="Meu pet precisa de . . .">
         </div>
         <div class="header-nav">
-            <a href="#">Meu Carrinho</a>
-            <a href="#">Cadastrar-se</a>
+            <a href="/pages/not-found.html">Meu Carrinho</a>
+            <a href="/pages/register.html">Entrar ou Cadastrar-se</a>
         </div>
     </header>
 
     <nav>
         <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Rações Secas</a></li>
-            <li><a href="#">Rações Úmidas</a></li>
-            <li><a href="#">Agendamentos Banho e Tosa</a></li>
-            <li><a href="#">Brinquedos</a></li>
-            <li><a href="#">Outros</a></li>
+            <li><a href="/">Início</a></li>
+            <li><a href="/pages/racoes-secas.html">Rações Secas</a></li>
+            <li><a href="/pages/racoes-umidas.html">Rações Úmidas</a></li>
+            <li><a href="/pages/not-found.html">Agendamentos Banho e Tosa</a></li>
+            <li><a href="/pages/not-found.html">Brinquedos</a></li>
+            <li><a href="/pages/not-found.html">Outros</a></li>
         </ul>
     </nav>
 
@@ -36,7 +37,7 @@
         <section>
             <div class="banner-gray">
                 <div class="banner-container">
-                    <img src="cachorro-2.png"/>
+                    <img src="./images/cachorro-2.png"/>
                     <div>
                         <div class="banner-center-container">
                             <div class="banner-title-container">
@@ -52,16 +53,71 @@
                             </div>
                         </div>
                     </div>
-                    <img  src="cachorro-1.png"/>
+                    <img  src="./images/cachorro-1.png"/>
                 </div>
             </div>
             <div class="banner-yellow"></div>
-            
+        </section>
+        <section class="product-container">
+            <div class="product">
+                <img src="./images/racao-seca-1.png" class="product-image"/>
+                <p class="product-text">Ração Seca Origens de Frango - Grandes Portes</p>
+                <h3 class="product-price">R$ 249,99</h3>
+                <button class="product-button">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product">
+                <img src="./images/racao-seca-2.png" class="product-image"/>
+                <p class="product-text">Ração Seca PremieR de Frango - Pequenos Portes</p>
+                <h3 class="product-price">R$ 200,00</h3>
+                <button class="product-button">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product">
+                <img src="./images/racao-umida-1.png" class="product-image"/>
+                <p class="product-text">Ração Úmida de Carne  GranPlus - Grandes Portes</p>
+                <h3 class="product-price">R$ 34,99</h3>
+                <button class="product-button">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product">
+                <img src="./images/racao-umida-2.png" class="product-image"/>
+                <p class="product-text">Ração Úmida de Frango Pedigree - Pequenos Portes</p>
+                <h3 class="product-price">R$ 25,95</h3>
+                <button class="product-button">Adicionar ao Carrinho</button>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 pet shop. Todos os direitos reservados.</p>
+        <div class="footer-container">
+            <section>
+                <div class="footer-column">
+                    <a href="/pages/not-found.html">/Sobre a pet shop</a>
+                    <a href="/pages/not-found.html">/Políticas de privacidade</a>
+                    <a href="/pages/not-found.html">/Nossas lojas</a>
+                </div>
+                <div class="footer-column">
+                    <a href="/pages/not-found.html">/Trabalhe conosco</a>
+                    <a href="/pages/not-found.html">/Entrar em contato</a>
+                    <a href="/pages/not-found.html">/Perguntas frequentes</a>
+                </div>
+                <div class="footer-column">
+                    <p>Siga-nos nas redes sociais</p>
+                    <div class="footer-socialmedia-container">
+                        <div>
+                            <img src="./images/instagram.png" class="footer-socialmedia"/>
+                            <a href="/pages/not-found.html">@petshop</a>
+                        </div>
+                        <div>
+                            <img src="./images/facebook.png" class="footer-socialmedia"/>
+                            <a href="/pages/not-found.html">@petshop</a>
+                        </div>
+                    </div>
+                    <img src="./images/patinhas-logo.png" class="footer-logo"/>
+                </div>
+            </section>
+        </div>
+        <div >
+            <p class="copy">&copy; 2023 pet shop por Tábata Ramos. Todos os direitos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>

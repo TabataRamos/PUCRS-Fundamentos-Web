@@ -1,0 +1,128 @@
+/* Reset de estilos para remover margens e preenchimento padrão */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+/* Estilos do cabeçalho */
+header {
+    max-width: 1440px;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header h1 {
+    font-size: 28px;
+    color: #303030;
+}
+
+.search-bar input[type="text"] {
+    border: 1px solid #D6D5D2;
+    border-radius: 15px;
+    padding: 10px 20px;
+    width: 400px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.header-nav a {
+    color: #808080;
+}
+
+/* Estilos da navegação */
+nav {
+    background-color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1440px;
+}
+
+nav ul li {
+text-decoration: underline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #808080;
+}
+
+
+/* Estilos do rodapé */
+
+.footer-container{
+    background-color: #fff;
+    border: 1px solid #CECECE;
+    padding: 40px 0;
+}
+
+.footer-container section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.footer-column{
+    display: grid;
+    justify-content: center;
+}
+
+.footer-column a,p{
+    position: relative;
+    color: #505050;
+}
+
+.footer-socialmedia-container{
+    display: flex;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.footer-socialmedia-container div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-socialmedia{
+    height: 30px;
+}
+
+.footer-logo{
+    display: flex;
+    justify-self: self-end;
+}
+
+
+.copy{
+    background-color: #cccc;
+    text-align: center;
+    padding: 10px;
+}

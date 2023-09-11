@@ -1,0 +1,74 @@
+main{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+form {
+    display: grid;
+    width: 350px;
+    margin: 30px auto;
+    padding: 45px 70px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+}
+
+form img{
+    margin: 0 auto 10px;
+}
+
+label {
+    display: block;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    text-transform: lowercase;
+    font-weight: 600;
+    font-size: 14px;
+    color: #505050;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #D6D5D2;
+    border-radius: 15px;
+}
+
+button {
+    border-radius: 25px;
+    background: #F8B500;
+    padding: 12px 25px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-weight: 600;
+    color: #505050;
+    font-size: 15px;
+    margin: 15px auto 0;
+    display: grid;
+    cursor: pointer;
+}
+
+button:active{
+    box-shadow: none;
+}
+
+form h1{
+    text-align: center;
+    font-weight: 600;
+    color: #505050;
+    margin-bottom: 20px;
+}
+
+form p{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+#forgot-password{
+    color: #505050;
+}

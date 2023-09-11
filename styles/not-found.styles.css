@@ -1,0 +1,21 @@
+main section {
+    display: flex;
+    max-width: 1440px;
+    margin: 22px auto;
+}
+
+main section img{
+    max-width: 600px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: auto;
+    max-width: 600px;
+}
+
+.text h1,h3{
+    color: #3d5a98;
+}
