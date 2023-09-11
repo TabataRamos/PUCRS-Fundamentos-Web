@@ -1,109 +1,116 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="../styles/styles.css">
-    <link rel="stylesheet" href="../styles/register.styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/register.styles.css" />
     <script src="../script/register-login.js"></script>
-    <link href="../fonts.css" rel="stylesheet">
+    <link href="../fonts.css" rel="stylesheet" />
     <title>pet shop</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <img src="../images/logo.png"/>
-        <div class="search-bar">
-            <input type="text" placeholder="Meu pet precisa de . . .">
-        </div>
-        <div class="header-nav">
-            <a href="not-found.html">Meu Carrinho</a>
-            <a href="register.html">Entrar ou Cadastrar-se</a>
-        </div>
+      <img src="../images/logo.png" />
+      <div class="search-bar">
+        <input type="text" placeholder="Meu pet precisa de . . ." />
+      </div>
+      <div class="header-nav">
+        <a href="not-found.html">Meu Carrinho</a>
+        <a href="register.html">Entrar ou Cadastrar-se</a>
+      </div>
     </header>
 
     <nav>
-        <ul>
-            <li><a href="/">Início</a></li>
-            <li><a href="racoes-secas.html">Rações Secas</a></li>
-            <li><a href="racoes-umidas.html">Rações Úmidas</a></li>
-            <li><a href="not-found.html">Agendamentos Banho e Tosa</a></li>
-            <li><a href="not-found.html">Brinquedos</a></li>
-            <li><a href="not-found.html">Outros</a></li>
-        </ul>
+      <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="racoes-secas.html">Rações Secas</a></li>
+        <li><a href="racoes-umidas.html">Rações Úmidas</a></li>
+        <li><a href="not-found.html">Agendamentos Banho e Tosa</a></li>
+        <li><a href="not-found.html">Brinquedos</a></li>
+        <li><a href="not-found.html">Outros</a></li>
+      </ul>
     </nav>
 
     <main>
-        <section>
-            <form id="cadastro-form" method="post">
-                <img src="../images/logo-white.png"/>
-                <p>É novo por aqui?</p>
-                <h1>Faça seu cadastro!</h1>
-                <label for="nome">Nome</label>
-                <input type="text" id="nome" name="nome" required>
+      <section>
+        <form id="cadastro-form" method="post">
+          <img src="../images/logo-white.png" />
+          <p>É novo por aqui?</p>
+          <h1>Faça seu cadastro!</h1>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" required />
 
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
 
-                <label for="senha">Senha</label>
-                <input type="password" id="senha" name="senha" required>
+          <label for="senha">Senha</label>
+          <input type="password" id="senha" name="senha" required />
 
-                <label for="confirma_senha">Confirme a Senha</label>
-                <input type="password" id="confirma_senha" name="confirma_senha" required>
-                <div>
-                    <button type="submit">Cadastrar-se</button>
-                </div>
-            </form>
-        </section>
-        <section>
-            <form id="login-form" method="post">
-                <img src="../images/logo-white.png"/>
-                <p>Já é nosso amigo?</p>
-                <h1>Bem-vindo(a) de volta!</h1>
-                <label for="email">Email</label>
-                <input type="email" id="email-login" name="email" required>
+          <label for="confirma_senha">Confirme a Senha</label>
+          <input
+            type="password"
+            id="confirma_senha"
+            name="confirma_senha"
+            required
+          />
+          <div>
+            <button type="submit">Cadastrar-se</button>
+          </div>
+        </form>
+      </section>
+      <section>
+        <form id="login-form" method="post">
+          <img src="../images/logo-white.png" />
+          <p>Já é nosso amigo?</p>
+          <h1>Bem-vindo(a) de volta!</h1>
+          <label for="email">Email</label>
+          <input type="email" id="email-login" name="email" required />
 
-                <label for="senha">Senha</label>
-                <input type="password" id="senha-login" name="senha" required>
-                <div>
-                    <button type="submit">Entrar</button>
-                </div>
-            </form>
-        </section>
+          <label for="senha">Senha</label>
+          <input type="password" id="senha-login" name="senha" required />
+          <div>
+            <button type="submit">Entrar</button>
+          </div>
+        </form>
+      </section>
     </main>
 
     <footer>
-        <div class="footer-container">
-            <section>
-                <div class="footer-column">
-                    <a href="not-found.html">/Sobre a pet shop</a>
-                    <a href="not-found.html">/Políticas de privacidade</a>
-                    <a href="not-found.html">/Nossas lojas</a>
-                </div>
-                <div class="footer-column">
-                    <a href="not-found.html">/Trabalhe conosco</a>
-                    <a href="not-found.html">/Entrar em contato</a>
-                    <a href="not-found.html">/Perguntas frequentes</a>
-                </div>
-                <div class="footer-column">
-                    <p>Siga-nos nas redes sociais</p>
-                    <div class="footer-socialmedia-container">
-                        <div>
-                            <img src="../images/instagram.png" class="footer-socialmedia"/>
-                            <a href="not-found.html">@petshop</a>
-                        </div>
-                        <div>
-                            <img src="../images/facebook.png" class="footer-socialmedia"/>
-                            <a href="not-found.html">@petshop</a>
-                        </div>
-                    </div>
-                    <img src="../images/patinhas-logo.png" class="footer-logo"/>
-                </div>
-            </section>
-        </div>
-        <div >
-            <p class="copy">&copy; 2023 pet shop por Tábata Ramos. Todos os direitos reservados.</p>
-        </div>
+      <div class="footer-container">
+        <section>
+          <div class="footer-column">
+            <a href="not-found.html">/Sobre a pet shop</a>
+            <a href="not-found.html">/Políticas de privacidade</a>
+            <a href="not-found.html">/Nossas lojas</a>
+          </div>
+          <div class="footer-column">
+            <a href="not-found.html">/Trabalhe conosco</a>
+            <a href="not-found.html">/Entrar em contato</a>
+            <a href="not-found.html">/Perguntas frequentes</a>
+          </div>
+          <div class="footer-column">
+            <p>Siga-nos nas redes sociais</p>
+            <div class="footer-socialmedia-container">
+              <div>
+                <img src="../images/instagram.png" class="footer-socialmedia" />
+                <a href="not-found.html">@petshop</a>
+              </div>
+              <div>
+                <img src="../images/facebook.png" class="footer-socialmedia" />
+                <a href="not-found.html">@petshop</a>
+              </div>
+            </div>
+            <img src="../images/patinhas-logo.png" class="footer-logo" />
+          </div>
+        </section>
+      </div>
+      <div>
+        <p class="copy">
+          &copy; 2023 pet shop por Tábata Ramos. Todos os direitos reservados.
+        </p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
