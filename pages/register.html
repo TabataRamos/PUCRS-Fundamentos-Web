@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/register.styles.css">
+    <script src="../script/register-login.js"></script>
     <link href="../fonts.css" rel="stylesheet">
     <title>pet shop</title>
 </head>
@@ -34,7 +35,7 @@
 
     <main>
         <section>
-            <form action="processar_cadastro.php" method="post">
+            <form id="cadastro-form" method="post">
                 <img src="../images/logo-white.png"/>
                 <p>É novo por aqui?</p>
                 <h1>Faça seu cadastro!</h1>
@@ -55,15 +56,15 @@
             </form>
         </section>
         <section>
-            <form action="processar_cadastro.php" method="post">
+            <form id="login-form" method="post">
                 <img src="../images/logo-white.png"/>
                 <p>Já é nosso amigo?</p>
                 <h1>Bem-vindo(a) de volta!</h1>
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email-login" name="email" required>
 
                 <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" required>
+                <input type="password" id="senha-login" name="senha" required>
                 <a href="#" id="forgot-password">Esqueci minha senha</a>
                 <div>
                     <button type="submit">Entrar</button>
